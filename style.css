@@ -1,0 +1,29 @@
+
+ /* Skriv din CSS-kod här för att styla din hero image! */ 
+
+ body{
+    margin: 0;
+  }
+  
+/******* BAKGRUNDSBILD ******/ 
+/* Byt ut bilden 
+/* Linear gradient gör så att bilden blir mörkare och texten blir tydligare. detta kan du ta bort/ändra om du vill
+/* lägg till en storlek på bilden ex. "height: 500px" 
+/* Se om du kan få bilden att täcka toppen av sidan hint -> background-repeat: no-repeat;*/
+/* lägg till position: relative; så hamnar bilden under texten. */  
+
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./assets/blad.png");
+    height: 500px;
+  }
+  
+  /****** INFORMATION OVANPÅ BILDEN*****/
+  /* Lägg till position: absolute; Då lägger sig texten ovanpå bilden 
+  /* positionera texten rätt genom att använda tillexempel top, right, left, bottom.
+  /* eller positionera texten i center med hjälp av tillexmepel flexbox */
+
+  .hero-text{
+      color:white;
+  }
+
+ 
