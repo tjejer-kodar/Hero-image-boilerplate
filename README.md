@@ -1,1 +1,1 @@
-# Hero-image-boilerplate
+# skapa-en-hero-image
