@@ -1,7 +1,7 @@
 
  /* Skriv din CSS-kod här för att styla din hero image! */ 
-
- body{
+/* * är en universal selector som återställer elements så de har 0 margins, så de ser likadant ut i alla browsers*/
+*{
     margin: 0;
   }
   
@@ -12,18 +12,26 @@
 /* Se om du kan få bilden att täcka toppen av sidan hint -> background-repeat: no-repeat;*/
 /* lägg till position: relative; så hamnar bilden under texten. */  
 
-  .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./assets/blad.png");
-    height: 500px;
-  }
+.hero-content {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./assets/apelsiner.png");
+  height: 500px;
+}
   
   /****** INFORMATION OVANPÅ BILDEN*****/
   /* Lägg till position: absolute; Då lägger sig texten ovanpå bilden 
   /* positionera texten rätt genom att använda tillexempel top, right, left, bottom.
   /* eller positionera texten i center med hjälp av tillexmepel flexbox */
 
-  .hero-text{
-      color:white;
-  }
+.hero-text{
+    color:white;
+}
 
+    /****** STYLA DIN KNAPP HÄR NEDAN****/
+    /*Här hittar du lite styling tips till din knapp https://www.w3schools.com/css/css3_buttons.asp */
  
+.btn{
+  color: white;
+}
+
+/****** Lägg till en extra bild här nedan om du vill.****/
+/*Glöm inte att lägga till ett class namn på din image tag */
