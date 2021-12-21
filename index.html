@@ -4,29 +4,62 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
-    <!-- Länken nedan går till en CSS-fil, med CSS gör du all styling på 
-        din knapp. Länken gör att båda filerna sammankopplas. Prova
-        att ta bort länkningen för att se hur knappen ser ut endast i HTML. -->
-
     <link rel="stylesheet" href="./style.css" type="text/css" />
     <title>Min hero image</title>
   </head>
   <body>
 
-  <!-- Bakgrundsbild, *Hint, för att lättast styla sidan, lägg in bilden som bakgrund i CSS filen -->
-    <div class="hero-content">
-      <!-- Innehåll ovanpå bakgrundsbilden här under. Använd till exmpel <h1> och <p> tags. -->
-      <div class="hero-text">
-        <h1>Rubrik</h1>
-        <p>underrubrik</p>
-          <!--Lägg till din knapp här genom antingen <button></button> tag, eller, om du vill lägga till en länk, 
-          rekommenderas att du stylar din knabb genom att använda <a></a> taggen.-->
-        <a class="btn" href="#">Contact</a>
+    <section class="hero-image">
+      
+      <div class="text">
+        <h1 class="h1hero">Julrecept för dig som egentligen inte orkar baka</h1>
+        
       </div>
-        <!-- <img/> Lägg till en bild här om du vill kanske ha en exra bild, typ profilbild , logotyp eller liknande
-      Exempel: https://vanessa-portfolio.netlify.app -->
+
+      <div class="bild">
+         <img src="cat.jpg" alt="picture of me! :)"/>
+      </div>  
+
+       
+       <div class="knapp"> 
+        <a href="https://google.com" class="button">Googla ett roligt julrecept!</a>
+       </div>
+
+    </section>
+
+  <section class="other">
+    <div class="recept">
+      <h1>ALLA RECEPT</h1>
     </div>
 
+    <div class="pepparkaka">
+      <h2>PEPPARKAKOR</h2>
+      <p>Egentligen är det enklast att bara gå till ICA, men man kan också köpa färdig pepparkaksdeg eller något</p>
+      <img src="cookies.jpeg"/>
+        
+      
+      </div>
+
+    <div class="glasyr">
+      <h2>GLASYRKAKOR</h2>
+      <p> såna här kan man också göra men att what cost</p>
+      <img src="glasyr.jpeg"/>
+       
+
+    </div>
+
+    <div class="socker">
+      <h2>SOCKERKAKOR</h2>
+      <p>för dig som gillar socker</p>
+      <img src="socker.jpeg"/>
+        
+
+    </div>
+
+
+  </section>
+
+  
   </body>
 </html>
+
