@@ -1,0 +1,91 @@
+
+*{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+
+.hero-image {
+  background-image: url("./christmas.jpeg");
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 80vh;
+  position: relative; 
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center; 
+
+}
+
+
+.h1hero{
+  margin: 10px;
+  padding: 20px; 
+  color:white;
+  font-size: 30px;
+  text-transform:uppercase;
+  width: 400px;
+  text-align: center;
+   
+}
+
+ 
+.button{
+  background-color: darkred;
+  padding: 2vh;
+  margin: 20px;
+  color: white;
+  border-radius: 4vh;
+  text-decoration: none;
+  font-weight: 600;
+  height: 20vh;
+
+}
+
+.button:hover{
+  opacity: 50%;
+}
+
+.bild img{
+  border-radius: 95%;
+  width: 200px; 
+  padding: 20px;
+  margin: 20px;
+
+
+}
+
+
+.other {
+  margin: 40px;
+  padding: 40px;
+  color:black;
+  font-size: 14px;
+  text-transform: uppercase;
+
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: flex-start;
+  align-content: center; 
+
+}
+
+.other img {
+ width: 20em;
+margin-top: 20px; 
+margin-bottom: 20px;
+
+}
+
+.recept{
+  font-size: 20px;
+  text-transform: uppercase;
+  color: darkred;
+  padding-bottom: 50px;
+}
+
